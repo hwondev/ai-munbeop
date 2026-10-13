@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "gicho-ai-munbeop": {
+      "type": "streamable-http",
+      "url": "https://asia-northeast3-gicho-ai-munbeop.cloudfunctions.net/mcp"
+    }
+  }
+}

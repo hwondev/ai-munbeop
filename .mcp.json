@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gicho-ai-munbeop": {
+      "type": "http",
+      "url": "https://asia-northeast3-gicho-ai-munbeop.cloudfunctions.net/mcp"
+    }
+  }
+}

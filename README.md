@@ -67,6 +67,21 @@ codex plugin add ai-munbeop@ai-munbeop
 - 스킬을 지원하는 도구: [skills/gicho-ai-munbeop](skills/gicho-ai-munbeop) 폴더를 그 도구의 스킬 폴더에 복사합니다.
 - ChatGPT 등: [SKILL.md](skills/gicho-ai-munbeop/SKILL.md)의 본문을 GPT나 프로젝트 지침에 붙여 넣습니다.
 
+## MCP 커넥터
+
+같은 진단을 서버에서 해 주는 MCP 커넥터도 있습니다. **Claude Code와 Codex 플러그인을 설치하면 커넥터도 함께 연결됩니다.** 스킬이 있으면 AI가 먼저 스킬로 직접 진단하고, 서버 진단이 필요할 때만 커넥터를 씁니다.
+
+- 주소: `https://asia-northeast3-gicho-ai-munbeop.cloudfunctions.net/mcp` (로그인 없음)
+- 도구: `diagnose_request`(문장 진단), `grammar_guide`(6성분 설명)
+- 무료로 제공하며 모든 사용자가 함께 쓰는 하루 사용 한도가 있습니다. 한도가 차면 6성분 기준표를 돌려줘서 AI가 직접 진단을 이어갑니다.
+- 보낸 문장은 저장하지 않습니다.
+
+플러그인 없이 커넥터만 쓰려면:
+
+- **Claude 앱**: 설정의 커넥터 메뉴에서 사용자 지정 커넥터를 추가하고 위 주소를 넣습니다(요금제에 따라 다름).
+- **ChatGPT**: 설정에서 개발자 모드를 켜고 앱(커넥터)을 만들 때 위 주소를 넣고, 인증은 "없음"을 고릅니다.
+- **Cursor·VS Code 등**: MCP 설정에 위 주소를 `url`로 넣습니다.
+
 ## 쓰는 법
 
 AI에게 보낼 문장을 붙여 넣고 이렇게 물어보세요.
