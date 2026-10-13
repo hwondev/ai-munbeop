@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ai-munbeop",
+  "description": "기초 AI 문법: \"해줘\" 한 줄을 AI가 알아듣는 문장으로.",
+  "owner": {
+    "name": "hwondev",
+    "url": "https://github.com/hwondev"
+  },
+  "plugins": [
+    {
+      "name": "ai-munbeop",
+      "description": "요청 문장을 6성분으로 진단하고 빠진 성분을 선택지로 채워 완성하게 돕는다.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

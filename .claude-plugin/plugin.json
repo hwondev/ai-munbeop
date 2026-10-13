@@ -1,0 +1,9 @@
+{
+  "name": "ai-munbeop",
+  "version": "0.1.0",
+  "description": "기초 AI 문법: AI에게 보낼 요청 문장을 6성분(할 일·독자·역할·형식·완료 기준·자료 경계)으로 진단하고, 빠진 성분마다 선택지 3개로 직접 골라 완성하게 돕는 스킬.",
+  "author": {
+    "name": "hwondev",
+    "url": "https://github.com/hwondev"
+  }
+}

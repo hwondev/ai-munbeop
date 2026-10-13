@@ -1,0 +1,21 @@
+{
+  "name": "ai-munbeop",
+  "interface": {
+    "displayName": "기초 AI 문법"
+  },
+  "plugins": [
+    {
+      "name": "ai-munbeop",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hwondev/ai-munbeop.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
